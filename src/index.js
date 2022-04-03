@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import { Provider } from 'react-redux';
-import { HashRouter } from 'react-router-dom';
+import { HashRouter, Route } from 'react-router-dom';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import store from './redux/store';
@@ -11,7 +11,7 @@ ReactDOM.render(
   <Provider store={ store }>
     <HashRouter>
       <React.StrictMode>
-        <App />
+        <Route path="/" component={ App } />
       </React.StrictMode>
     </HashRouter>
   </Provider>,
