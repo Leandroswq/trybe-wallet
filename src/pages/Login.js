@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import PropTypes from 'prop-types';
 import { emailAction } from '../redux/actions/userActions';
+import './css/Login.css';
 
 export default function Login(props) {
   const [email, setEmail] = useState('');
@@ -24,35 +25,42 @@ export default function Login(props) {
   };
 
   return (
-    <div>
-      <div>Login</div>
-      <label htmlFor="login--email">
-        <input
-          data-testid="email-input"
-          type="email"
-          id="login--email"
-          name="email"
-          value={ email }
-          onChange={ ({ target: { value } }) => setEmail(value) }
-        />
-      </label>
-      <label htmlFor="login--password">
-        <input
-          data-testid="password-input"
-          type="password"
-          id="login--password"
-          name="password"
-          value={ password }
-          onChange={ ({ target: { value } }) => setPassword(value) }
-        />
-      </label>
-      <button
-        type="button"
-        disabled={ btnVerification() }
-        onClick={ handleBtnClick }
-      >
-        Entrar
-      </button>
+    <div className="container-centralized background-color-prymary">
+      <div className="Login">
+        <div className="Login__login text-color-tertiary">Login</div>
+        <label htmlFor="login--email">
+          <input
+            className="text-alin-center"
+            data-testid="email-input"
+            placeholder="E-mail"
+            type="email"
+            id="login--email"
+            name="email"
+            value={ email }
+            onChange={ ({ target: { value } }) => setEmail(value) }
+          />
+        </label>
+        <label htmlFor="login--password">
+          <input
+            className="text-alin-center"
+            data-testid="password-input"
+            placeholder="Password"
+            type="password"
+            id="login--password"
+            name="password"
+            value={ password }
+            onChange={ ({ target: { value } }) => setPassword(value) }
+          />
+        </label>
+        <button
+          className="Login__button"
+          type="button"
+          disabled={ btnVerification() }
+          onClick={ handleBtnClick }
+        >
+          Entrar
+        </button>
+      </div>
     </div>
   );
 }

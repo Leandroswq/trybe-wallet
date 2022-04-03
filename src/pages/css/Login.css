@@ -1,0 +1,20 @@
+.Login {
+  border: 5px solid black;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  text-align: center;
+}
+
+.Login__login {
+  font-size: xx-large;
+  padding-bottom: 15px;
+}
+
+.Login__button:enabled {
+  background-color: #00c1ac;
+  border: 0;
+
+}
+
