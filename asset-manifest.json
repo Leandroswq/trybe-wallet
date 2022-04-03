@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/trybe-wallet/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/trybe-wallet/static/js/main.949c93fe.chunk.js",
-    "main.js.map": "/trybe-wallet/static/js/main.949c93fe.chunk.js.map",
+    "main.css": "/trybe-wallet/static/css/main.2740140c.chunk.css",
+    "main.js": "/trybe-wallet/static/js/main.d8dd9052.chunk.js",
+    "main.js.map": "/trybe-wallet/static/js/main.d8dd9052.chunk.js.map",
     "runtime-main.js": "/trybe-wallet/static/js/runtime-main.f94807e2.js",
     "runtime-main.js.map": "/trybe-wallet/static/js/runtime-main.f94807e2.js.map",
-    "static/js/2.36f6336d.chunk.js": "/trybe-wallet/static/js/2.36f6336d.chunk.js",
-    "static/js/2.36f6336d.chunk.js.map": "/trybe-wallet/static/js/2.36f6336d.chunk.js.map",
+    "static/js/2.b578448f.chunk.js": "/trybe-wallet/static/js/2.b578448f.chunk.js",
+    "static/js/2.b578448f.chunk.js.map": "/trybe-wallet/static/js/2.b578448f.chunk.js.map",
     "index.html": "/trybe-wallet/index.html",
-    "precache-manifest.dcf3fd0dba805daca1bb6c05f4121fc1.js": "/trybe-wallet/precache-manifest.dcf3fd0dba805daca1bb6c05f4121fc1.js",
+    "precache-manifest.5f6acc496fbb6aae16c719eb75107b49.js": "/trybe-wallet/precache-manifest.5f6acc496fbb6aae16c719eb75107b49.js",
     "service-worker.js": "/trybe-wallet/service-worker.js",
-    "static/css/main.5ecd60fb.chunk.css.map": "/trybe-wallet/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.36f6336d.chunk.js.LICENSE.txt": "/trybe-wallet/static/js/2.36f6336d.chunk.js.LICENSE.txt"
+    "static/css/main.2740140c.chunk.css.map": "/trybe-wallet/static/css/main.2740140c.chunk.css.map",
+    "static/js/2.b578448f.chunk.js.LICENSE.txt": "/trybe-wallet/static/js/2.b578448f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f94807e2.js",
-    "static/js/2.36f6336d.chunk.js",
-    "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.949c93fe.chunk.js"
+    "static/js/2.b578448f.chunk.js",
+    "static/css/main.2740140c.chunk.css",
+    "static/js/main.d8dd9052.chunk.js"
   ]
 }
