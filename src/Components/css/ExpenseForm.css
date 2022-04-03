@@ -1,0 +1,31 @@
+.ExpensyForm {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: xx-large;
+  justify-content: space-between;
+  padding: 5px;
+  text-align: center;
+  width: 100%;
+}
+
+.ExpensyForm > label {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+}
+
+.ExpensyForm > label > input , select {
+  font-size: 18px;
+  height: 30px;
+}
+
+.ExpensyForm > button {
+  font-size: 25px;
+
+}
+
+.expensy-form--value {
+  width: 100px;
+}

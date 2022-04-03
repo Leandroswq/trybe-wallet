@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { addExpensesAction, updateExpenseAction } from '../redux/actions/walletActions';
 import fetchApi from '../services/economiaAPI';
+import './css/ExpenseForm.css';
 
 export default function ExpensyForm() {
   const [value, setValue] = useState(0);
@@ -53,10 +54,14 @@ export default function ExpensyForm() {
   const currenciesProp = useSelector((state) => state.wallet.currencies);
 
   return (
-    <form onSubmit={ handleSubmit }>
+    <form
+      onSubmit={ handleSubmit }
+      className="background-color-tertiary ExpensyForm"
+    >
       <label htmlFor="expensy-form--value">
         {'Valor: '}
         <input
+          className="expensy-form--value"
           data-testid="value-input"
           id="expensy-form--value"
           type="number"
