@@ -1,5 +1,6 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
+import './css/Header.css';
 
 export default function Header() {
   const reduxState = useSelector((state) => state);
@@ -13,13 +14,16 @@ export default function Header() {
   }, 0).toFixed(2);
   const currency = 'BRL';
   return (
-    <header>
-      Header
+    <header className="Header">
       <p data-testid="email-field">{email}</p>
       <div>
-        <span>Despesa Total R$</span>
+        <span>
+          Despesa Total R$
+          {' '}
+        </span>
         <span data-testid="total-field">
           {totalExpenses}
+          {' '}
         </span>
         <span data-testid="header-currency-field">{currency}</span>
 

@@ -18,7 +18,7 @@ export default function Wallet() {
     dispatchCurrencies();
   });
   return (
-    <div>
+    <div className="container-flex background-color-prymary">
       <Header />
       <ExpensyForm />
       <ExpenseTable />
