@@ -1,5 +1,5 @@
 #606562 gray
 #91c85b green
-#f4a027 #54b5e4
-#f4a027 blue
+#00c1ac green 2
+#54b5e4 blue
 #e14849 red

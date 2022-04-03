@@ -10,6 +10,30 @@
   justify-content: center;
 }
 
-.color-prymary {
+.text-alin-center {
+  text-align: center;
+}
+
+.background-color-prymary {
   background-color: #606562;
+}
+
+.background-color-secundary {
+  background-color: #91c85b;
+}
+
+.background-color-tertiary {
+  background-color: #54b5e4;
+}
+
+.text-color-prymary {
+  color: #606562;
+}
+
+.text-color-secundary {
+  color: #91c85b;
+}
+
+.text-color-tertiary {
+  color: #54b5e4;
 }
