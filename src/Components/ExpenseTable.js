@@ -1,7 +1,7 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { editingExpenseStateAction,
-  removeExpensesAction } from '../actions/walletActions';
+  removeExpensesAction } from '../redux/actions/walletActions';
 
 export default function ExpenseTable() {
   const { expenses } = useSelector((state) => state.wallet);

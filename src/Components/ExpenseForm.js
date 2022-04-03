@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { addExpensesAction, updateExpenseAction } from '../actions/walletActions';
+import { addExpensesAction, updateExpenseAction } from '../redux/actions/walletActions';
 import fetchApi from '../services/economiaAPI';
 
 export default function ExpensyForm() {

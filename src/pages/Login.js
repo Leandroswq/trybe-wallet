@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import PropTypes from 'prop-types';
-import { emailAction } from '../actions/userActions';
+import { emailAction } from '../redux/actions/userActions';
 
 export default function Login(props) {
   const [email, setEmail] = useState('');

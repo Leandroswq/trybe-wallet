@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
-import { currenciesAction } from '../actions/walletActions';
+import { currenciesAction } from '../redux/actions/walletActions';
 import Header from '../Components/Header';
 import { fetchApiFiltered } from '../services/economiaAPI';
 import ExpensyForm from '../Components/ExpenseForm';
