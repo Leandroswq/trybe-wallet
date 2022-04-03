@@ -5,7 +5,7 @@
 .container-centralized {
   align-items: center;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   height: 100vh;
   justify-content: center;
 }
@@ -36,4 +36,8 @@
 
 .text-color-tertiary {
   color: #54b5e4;
+}
+
+.font-size-xx {
+  font-size: xx-large;
 }
