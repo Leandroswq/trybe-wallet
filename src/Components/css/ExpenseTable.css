@@ -1,0 +1,13 @@
+.ExpenseTable {
+  border: 1px solid;
+  font-size: xx-large;
+  text-align: center;
+  width: 100%;
+
+}
+
+table , th , td {
+  border: 1px solid;
+  border-collapse: collapse;
+
+}

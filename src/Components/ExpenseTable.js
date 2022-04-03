@@ -2,12 +2,13 @@ import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { editingExpenseStateAction,
   removeExpensesAction } from '../redux/actions/walletActions';
+import './css/ExpenseTable.css';
 
 export default function ExpenseTable() {
   const { expenses } = useSelector((state) => state.wallet);
   const dispatch = useDispatch();
   return (
-    <table>
+    <table className="ExpenseTable">
       <thead>
         <tr>
           <th> Descrição </th>
