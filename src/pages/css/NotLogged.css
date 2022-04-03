@@ -1,0 +1,13 @@
+.Not-logged {
+  border: 5px solid black;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  height: auto ! important;
+  padding: 15px;
+  text-align: center;
+}
+
+.Not-logged__link {
+  color: #00c1ac;
+}
