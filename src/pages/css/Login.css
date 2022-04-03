@@ -7,9 +7,16 @@
   text-align: center;
 }
 
-.Login__login {
+.Login > label > input {
   font-size: xx-large;
+}
+
+.Login__login {
   padding-bottom: 15px;
+}
+
+.Login__button {
+  font-size: 25px;
 }
 
 .Login__button:enabled {

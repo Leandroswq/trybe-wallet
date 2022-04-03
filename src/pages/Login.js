@@ -27,7 +27,7 @@ export default function Login(props) {
   return (
     <div className="container-centralized background-color-prymary">
       <div className="Login">
-        <div className="Login__login text-color-tertiary">Login</div>
+        <div className="Login__login text-color-tertiary font-size-xx">Login</div>
         <label htmlFor="login--email">
           <input
             className="text-alin-center"
