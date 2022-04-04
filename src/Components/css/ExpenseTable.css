@@ -1,4 +1,5 @@
 .ExpenseTable {
+  background-color: #6d746f;
   border: 1px solid;
   font-size: xx-large;
   text-align: center;
@@ -10,4 +11,21 @@ table , th , td {
   border: 1px solid;
   border-collapse: collapse;
 
+}
+
+.ExpenseTable button {
+  border: 0;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 2px;
+}
+
+.ExpenseTable__edit-btn {
+  background-color: #00c1ac;
+  margin-right: 5px;
+}
+
+.ExpenseTable__add-btn {
+  background-color: #e14849;
+  margin-left: 5px;
 }

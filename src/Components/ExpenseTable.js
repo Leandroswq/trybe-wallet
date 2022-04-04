@@ -48,6 +48,7 @@ export default function ExpenseTable() {
             </td>
             <td>
               <button
+                className="ExpenseTable__edit-btn"
                 type="button"
                 data-testid="edit-btn"
                 onClick={ () => dispatch(editingExpenseStateAction(item.id)) }
@@ -55,6 +56,7 @@ export default function ExpenseTable() {
                 Editar
               </button>
               <button
+                className="ExpenseTable__add-btn"
                 type="button"
                 data-testid="delete-btn"
                 onClick={ () => dispatch(removeExpensesAction(item.id)) }
