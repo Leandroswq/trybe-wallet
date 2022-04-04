@@ -10,7 +10,6 @@ import './App.css';
 function App(prop) {
   const login = useSelector((state) => state.user.login);
   const { history: { location: { pathname } } } = prop;
-  console.log(pathname);
   return (
     <div className="App">
       {!login && pathname !== '/' ? <NotLogged /> : (
