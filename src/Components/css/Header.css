@@ -1,9 +1,14 @@
 .Header {
+  align-items: center;
   background-color: #91c85b;
   border: 2px solid #7dad4d;
   display: flex;
   font-size: xx-large;
   justify-content: space-between;
-  padding: 20px 5px;
+  padding: 10px 5px;
   width: 100%;
+}
+
+.Header__despesa {
+  font-size: 60px;
 }

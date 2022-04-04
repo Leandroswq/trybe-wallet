@@ -16,6 +16,7 @@ export default function Header() {
   return (
     <header className="Header">
       <p data-testid="email-field">{email}</p>
+      <p className="Header__despesa">TABELA DE DESPESAS</p>
       <div>
         <span>
           Despesa Total R$
