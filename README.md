@@ -1,12 +1,14 @@
 # Project trybeWallet
-This app is the result of an evaluation process during my journey through the trybe course.
+Uma aplicação web para demonstrar com o objetivo de auxilir no controle de gastos, com conversão dos valores de moedas estrangeiras para BRL
 
-## Objectives
+## Github pages
 
-* Create a simple app with react and redux.
+<https://leandroswq.github.io/trybe-wallet/#/>
 
-* This app needs a login page and a page to manage expenses.
+## Objetivo
 
-* If there is an attempt to enter the expenses page the app needs to render a message saying you are not logged in, to log in click here.
+* Testar meu conhecimento em React
 
-* by clicking "click here" redirect to login page.
+* Testar meu conhecimento em Redux
+
+* Testar meu conhecimento em chamadas http do tipo get utilizando fetch
